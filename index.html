@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Tic-Tac-Toe</title>
+</head>
+
+<body>
+	<h1>TIC-TAC-TOE</h1>
+	<h2>Two-player game</h2>
+
+	<br><br>
+
+	<input type="text" class="box" id="b1" onclick="setb1(); check();" readonly>
+
+	<input type="text" class="box" id="b2" onclick="setb2(); check();" readonly>
+
+	<input type="text" class="box" id="b3" onclick="setb3(); check();" readonly>
+	<br>
+
+	<input type="text" class="box" id="b4" onclick="setb4(); check();" readonly>
+			
+	<input type="text" class="box" id="b5" onclick="setb5(); check();" readonly>
+
+	<input type="text" class="box" id="b6" onclick="setb6(); check();" readonly>
+	<br>
+
+	<input type="text" class="box" id="b7" onclick="setb7(); check();" readonly>
+
+	<input type="text" class="box" id="b8" onclick="setb8(); check();" readonly>
+
+	<input type="text" class="box" id="b9" onclick="setb9(); check();" readonly>
+
+	<br><br><br>
+
+	<div id="result"></div>
+	<br><br>
+
+	<button id="restart" onclick="restart()">RESTART</button>
+
+</body>
+
+</html>
